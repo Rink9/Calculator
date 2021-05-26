@@ -18,7 +18,7 @@ body{
 .body{
     background-color:#111827;
     width: 350px;
-    border-radius: 16px;
+    border-radius: 32px;
     -webkit-box-shadow: 3px 4px 15px 2px rgba(130,130,130,0.73), 9px 6px 28px 6px #828282; 
     box-shadow: 3px 4px 15px 2px rgba(130,130,130,0.73), 9px 6px 28px 6px #828282;
 }
@@ -66,7 +66,11 @@ body{
     justify-content: center;
     align-items: center;
     font-weight: bold;
-
+    border-radius: 12px;
+    cursor: pointer;
+}
+.input .btn:hover{
+    background-color: #29303f;
 }
 .operator{
    color:#F87171;
